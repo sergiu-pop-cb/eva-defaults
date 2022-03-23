@@ -1,0 +1,12 @@
+{
+  "Categories": {
+    "Financial": {
+      "Functionalities": [
+        "ApproveCapture", 
+        "ApprovePayment",
+        "CapturePayment",
+        "CancelPayment"
+      ]
+    }
+  }
+}
