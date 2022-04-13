@@ -3,11 +3,7 @@
     "Name": "Orders",
     "Code": "ORDERS",
     "IsActive": true,
-    "Data": {
-      "Title": "Orders",
-      "Url": "/orders",
-      "Actions":[]
-    },
+    "Data": "",
     "Roles": ["NB"]
   }
 ]
