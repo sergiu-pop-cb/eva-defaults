@@ -3,7 +3,11 @@
     "Name": "Orders",
     "Code": "ORDERS",
     "IsActive": true,
-    "Data": "{\"Title\":\"Orders\",\"Description\":\"Use Orders to manage business processes around orders for goods or services.\",\"Url\":\"/orders\",\"Actions\":[]}",
+    "Data": {
+      "Title": "Orders",
+      "Url": "/orders",
+      "Actions":[]
+    },
     "Roles": ["NB"]
   }
 ]
