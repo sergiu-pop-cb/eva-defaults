@@ -1,0 +1,9 @@
+[
+  {
+    "Name": "Orders",
+    "Code": "ORDERS",
+    "IsActive": true,
+    "Data": {},
+    "Roles": ["NB"]
+  }
+]
