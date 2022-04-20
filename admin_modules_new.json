@@ -3,7 +3,7 @@
     "Name": "Orders",
     "Code": "ORDERS",
     "IsActive": true,
-    "Data": {},
+    "Data": {"Title":"orders","Description":"","Url":"/orders"},
     "Roles": []
   }
 ]
