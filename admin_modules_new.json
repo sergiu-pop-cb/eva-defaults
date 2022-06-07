@@ -43,14 +43,14 @@
   },
     {
     "Name": "Stock",
-    "Code": "STOCK",
+    "Code": "STOCKMANAGEMENT",
     "IsActive": true,
     "Data": {"Title":"Stock","Description":"in this module the stock related chapters are included like stock counts, assortments and replenishment","Url":"/stock-management"},
     "Roles": []
   },
     {
     "Name": "People",
-    "Code": "PEOPLE",
+    "Code": "CRM",
     "IsActive": true,
     "Data": {"Title":"People","Description":"employees and their roles and rights can be viewed, edited, created and deleted in this module","Url":"/crm"},
     "Roles": []
