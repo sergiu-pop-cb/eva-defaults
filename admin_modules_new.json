@@ -8,7 +8,7 @@
   },
     {
     "Name": "Promotions",
-    "Code": "PROMOTIONS",
+    "Code": "DISCOUNTS",
     "IsActive": true,
     "Data": {"Title":"Promotions","Description":"all promotions are created, edited and viewed here as well as templates and campaigns for promotions","Url":"/promotions"},
     "Roles": []
