@@ -63,10 +63,10 @@
     "Roles": []
   },
      {
-    "Name": "Monitors",
+    "Name": "Control room",
     "Code": "MONITORS",
     "IsActive": true,
-    "Data": {"Title":"Monitors","Description":"monitors can be viewed, edited and created in this module","Url":"/monitors"},
+    "Data": {"Title":"Control room","Description":"monitor and settings can be viewed, edited and created in this module","Url":"/control-room"},
     "Roles": []
   }
 ]
