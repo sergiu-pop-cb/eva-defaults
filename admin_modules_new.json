@@ -62,11 +62,18 @@
     "Data": {"Title":"PIM","Description":"product bundles can be viewed, edited, deleted and created here","Url":"/pim"},
     "Roles": []
   },
-     {
+  {
     "Name": "Control room",
     "Code": "MONITORS",
     "IsActive": true,
     "Data": {"Title":"Control room","Description":"monitor and settings can be viewed, edited and created in this module","Url":"/control-room"},
+    "Roles": []
+  },
+  {
+    "Name": "Compliance",
+    "Code": "COMPLIANCE",
+    "IsActive": true,
+    "Data": {"Title":"Compliance","Description":"Module for viewing and managing fiscal archives, event ledger, payment settlements and other, compliance-related items","Url":"/compliance"},
     "Roles": []
   }
 ]
