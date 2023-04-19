@@ -16,18 +16,12 @@ jobs:
         with:
           pattern: "\\.json$"
       - name: Validate appsettings.json
-        uses: snapcart/json-schema-validator@v1.0.0
+        uses: docker://orrosenblatt/validate-json-action:latest
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          json_schema: ./appsettings.schema.json
-          json_path_pattern: ./appsettings.json
-          send_comment: true
-          clear_comments: true
+          INPUT_SCHEMA: ./appsettings.schema.json
+          INPUT_JSONS: ./appsettings.json
       - name: Validate countries.json
-        uses: snapcart/json-schema-validator@v1.0.0
+        uses: docker://orrosenblatt/validate-json-action:latest
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          json_schema: ./countries.schema.json
-          json_path_pattern: ./countries.json
-          send_comment: true
-          clear_comments: false
+          INPUT_SCHEMA: ./countries.schema.json
+          INPUT_JSONS: ./countries.json
