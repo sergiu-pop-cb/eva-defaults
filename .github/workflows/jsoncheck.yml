@@ -18,10 +18,10 @@ jobs:
       - name: Validate appsettings.json
         uses: docker://orrosenblatt/validate-json-action:latest
         with:
-          INPUT_SCHEMA: ./appsettings.schema.json
-          INPUT_JSONS: ./appsettings.json
+          SCHEMA: ./appsettings.schema.json
+          JSONS: ./appsettings.json
       - name: Validate countries.json
         uses: docker://orrosenblatt/validate-json-action:latest
         with:
-          INPUT_SCHEMA: ./countries.schema.json
-          INPUT_JSONS: ./countries.json
+          SCHEMA: ./countries.schema.json
+          JSONS: ./countries.json
