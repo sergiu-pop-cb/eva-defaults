@@ -15,3 +15,13 @@ jobs:
         uses: limitusus/json-syntax-check@v1
         with:
           pattern: "\\.json$"
+      - name: Validate appsettings.json
+        uses: docker://orrosenblatt/validate-json-action:latest
+        with:
+          SCHEMA: ./appsettings.schema.json
+          JSONS: ./appsettings.json
+      - name: Validate countries.json
+        uses: docker://orrosenblatt/validate-json-action:latest
+        with:
+          SCHEMA: ./countries.schema.json
+          JSONS: ./countries.json
